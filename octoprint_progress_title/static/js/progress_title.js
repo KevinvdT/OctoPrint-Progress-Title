@@ -65,7 +65,7 @@ $(function() {
             }
         };
         self.updateProgress = function(progress) {
-            document.title = self.default_title + " - " + progress + "%";
+            document.title = progress + " - " + self.default_title + "%";
         };
         self.clearProgress = function() {
             document.title = self.default_title;
